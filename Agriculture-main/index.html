@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Holistic Agrochem - Your partner in sustainable agriculture."
+    />
+    <title>HOLISTIC AGROCHEM</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body">
+    <header id="header">
+      <div class="header-container">
+        <h1 class="main-heading">Welcome to</h1>
+        <img src="./public/LOGO.jpg" alt="Holistic" />
+      </div>
+      <div class="nav-wrapper">
+        <nav class="navbar">
+          <ul class="nav-list">
+            <li><a href="index.html" class="nav-btn">Home</a></li>
+            <li><a href="#product-list" class="nav-btn">Products</a></li>
+            <li><a href="#About_us" class="nav-btn">About Us</a></li>
+            <li><a href="#contact" class="nav-btn">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div id="crousel_section" class="carousel-section">
+          <div class="carousel-wrapper">
+            <div class="carousel" id="carousel">
+              <div class="slide">
+                <img src="./public/crousel-1.jpg" alt="Slide 1" />
+              </div>
+              <div class="slide">
+                <img src="./public/crousel-2.jpg" alt="Slide 2" />
+              </div>
+              <div class="slide">
+                <img src="./public/crousel-3.jpg" alt="Slide 3" />
+              </div>
+              <div class="slide">
+                <img src="./public/crousel-4.jpg" alt="Slide 4" />
+              </div>
+              <div class="slide">
+                <img src="./public/crousel-5.jpg" alt="Slide 5" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile view crousel -->
+        <div id="crousel_section" class="carousel-section2">
+          <div class="carousel-wrapper">
+            <div class="carousel2" id="carousel2">
+              <div class="slide">
+                <img src="./public/SI lipstick (1).png" alt="Slide 1" />
+              </div>
+              <div class="slide">
+                <img src="./public/SI lipstick (2).png" alt="Slide 2" />
+              </div>
+              <div class="slide">
+                <img src="./public/SI lipstick (3).png" alt="Slide 3" />
+              </div>
+              <div class="slide">
+                <img src="./public/SI lipstick.png" alt="Slide 4" />
+              </div>
+              <div class="slide">
+                <img src="./public/Hummerr.jpg" alt="Slide 5" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-section">
+          <h1 class="hero-title">Holistic Agrochem</h1>
+          <p class="hero-text">
+            Your partner in sustainable agriculture, providing high-quality
+            bio-products and fertilizers.
+          </p>
+          <img src="/public/Your paragraph text.jpg" class="hero-class" />
+        </div>
+      </section>
+
+      <section id="about-section">
+        <div class="about-container">
+          <h1 class="section-title">About Us</h1>
+          <div class="card-container" id="About_us">
+            <div class="our_vision">
+              <h2 class="card-title">Our Vision</h2>
+              <p class="card-text">
+                To establish our identity as a major global player in the
+                specialty bio-products & high-tech farming products. Bring new
+                perspectives by diversifying into related product lines.
+              </p>
+            </div>
+            <div class="our_mission">
+              <h2 class="card-title">Our Mission</h2>
+              <p class="card-text">
+                To provide total farmers' satisfaction through on-time delivery
+                of high-quality bio-products & fertilizers, technical support &
+                service to enhance farm productivity, and to build a business
+                with a human face.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <h1 class="products-heading">Our Products</h1>
+      <section id="product-list" class="product-list"></section>
+
+      <!-- Dealership form -->
+      <div id="Dealership">
+        <div class="form-container">
+          <h2>🌾 डीलरशिप आवेदन फॉर्म</h2>
+          <p>
+            मध्य प्रदेश में कोई भी कृषि व्यापारी हमसे जुड़ना चाहते हैं, तो कृपया
+            नीचे जानकारी भरें:
+          </p>
+
+          <form action="https://formsubmit.co/" method="post">
+            <label for="shop-name">🔸 अपनी दुकान का नाम:</label>
+            <input type="text" id="shop-name" name="shop-name" />
+
+            <label for="owner-name">🔸 प्रोपराइटर का नाम:</label>
+            <input type="text" id="owner-name" name="owner-name" />
+
+            <label for="shop-address">🔸 दुकान का पता:</label>
+            <input type="text" id="shop-address" name="shop-address" />
+
+            <label for="gst">🔸 GST नंबर:</label>
+            <input type="text" id="gst" name="gst" />
+
+            <label for="mobile">🔸 मोबाइल नंबर:</label>
+            <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" />
+
+            <button type="submit">सबमिट करें</button>
+          </form>
+        </div>
+      </div>
+
+      <section>
+        <div id="contact" class="contact-section">
+          <div class="contact-card">
+            <h1 class="contact-title">Get in Touch</h1>
+            <p class="contact-text">
+              We'd love to hear from you! Feel free to reach out.
+            </p>
+            <div class="contact-info">
+              <!-- <div class="contact-item">📞 <span>54095</span></div>
+              <p>or</p> -->
+              <div class="contact-item">
+                ✉️ <span>holisticagrochem@gmail.com</span>
+              </div>
+            </div>
+            <a href="mailto:holisticagrochem@gmail.com" class="contact-email"
+              >Send Us an Email</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="brand">HOLISTIC AGROCHEM</div>
+      <div>
+        78, Industrial Area, Bhadru, PO Kanjian, Teh. Bhoranj, District
+        Hamirpur, (H.P.) 177025.
+      </div>
+      <p>&copy; 2025 Holistic. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
