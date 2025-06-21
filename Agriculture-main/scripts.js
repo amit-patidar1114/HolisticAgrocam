@@ -306,6 +306,19 @@ document.querySelectorAll(".language-toggle").forEach((toggleButton) => {
 });
 
 
-// <div class="product-description mt-2 border-2 border-blue-500 text-black px-4 py-2 rounded-md">
-//     ${product.description}
-// </div>
+// Initialize EmailJS with your public key
+(function () {
+  emailjs.init("YOUR_PUBLIC_KEY"); 
+})();
+
+document.getElementById("dealership-form").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  emailjs.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", this)
+    .then(() => {
+      alert("Message sent successfully!");
+    }, (error) => {
+      console.error("FAILED...", error);
+      alert("Failed to send message. Try again later.");
+    });
+});
